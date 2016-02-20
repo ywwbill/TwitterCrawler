@@ -74,8 +74,8 @@ public class CrawlerParam
 		System.out.println("\t-d: Input and output are directories, default false");
 		System.out.println("\t-i: Input file/directory name, necessary");
 		System.out.println("\t-o: Output file/directory name, necessary");
-		System.out.println("\t-p: #Requests per user when crawling his tweets, default 1");
-		System.out.println("\t-t: #Tweets per request when crawling a user's tweets, default 200");
+		System.out.println("\t-p: #Requests per user when crawling his tweets, default 1, max 200");
+		System.out.println("\t-t: #Tweets per request when crawling a user's tweets, default 200, max 200");
 		System.out.println("\t-h: Show help information");
 	}
 	
